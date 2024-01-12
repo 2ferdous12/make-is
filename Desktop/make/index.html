@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .snap-section{
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .login-section{
+            justify-content: space-around;
+            display: flex;
+            width: 20%;
+         }
+
+        .make-container{
+            display: flex;
+            justify-content: space-between;
+            max-width: 1560px;
+            width: 100%;
+      margin: 10px auto;
+        }
+.text-section{
+    max-width: 500px;
+    width: 100%;
+}
+
+.text-section-1{
+    max-width: 500px;
+    width: 100%;
+}
+
+
+
+@media screen and (max-width:576px) {
+    .container{
+        flex-direction: column;
+    }
+    .make-container{
+        flex-direction: column;
+    }
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="snap-section">
+            <h3>snap</h3>
+            <p>Features</p>
+            <p>Company</p>
+            <p>Careers</p>
+            <p>About</p>
+            </div>
+            <div class="login-section">
+               <p>Login</p>
+               <button>Register</button>
+            </div>
+        </div>
+    </header>
+
+
+    <section>
+        <div class="make-container">
+            <div class="text-section">
+                <h3>
+                    make remote work
+                </h3>
+
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing 
+                    elit. Officia tenetur modi repudiandae dignissimos 
+                    sapiente, totam autem eligendi fuga, laboriosam odit
+                     numquam in quae deleniti
+                     saepe ducimus ipsa, nesciunt doloremque labore?</p>
+                     <button>Learn more</button>
+            </div>
+
+            <div class="text-section-1">
+                <h3>
+                    make remote work
+                </h3>
+
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing 
+                    elit. Officia tenetur modi repudiandae dignissimos 
+                    sapiente, totam autem eligendi fuga, laboriosam odit
+                     numquam in quae deleniti
+                     saepe ducimus ipsa, nesciunt doloremque labore?</p>
+                     <button>Learn more</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
